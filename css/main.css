@@ -1,0 +1,87 @@
+body{
+  font:20px/1.2em lato, arial, sans-serif;
+  max-width:700px;
+  width:90%;
+  margin: 30px auto;
+
+}
+h1{
+  text-align: center;
+  margin: 50px 0;
+}
+section{
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  margin-top:50px;
+  background: white;
+}
+figure{
+  flex:1 1 auto;
+  margin: 50px 0;
+}
+figure img{
+  width:100%;
+  height: auto;
+}
+figcaption{
+  text-align: center;
+  font-size: 14px;
+  margin: 10px 0 30px 0;
+}
+
+a{
+  color: rgb(36, 91, 185);
+}
+figure.main {
+  width:100%;
+  padding: 0 25%;
+}
+.compare figure{
+  width:50%;
+  padding: 0 15%;
+}
+.bonux{
+  max-height: 0px;
+  transition: all 2s linear;
+  overflow: hidden;
+}
+
+.showbonux .bonux{
+  max-height:800px;
+}
+.showbonux section.bonux{
+  box-shadow: 0 0 100px rgb(36, 91, 185);
+  margin-bottom: 100px;
+}
+.bonux figure{
+  width:100%;
+}
+
+.bonux figure img{
+  padding: 0 40%;
+
+}
+
+.bonuxbtn{
+  border: 1px solid rgb(36, 91, 185);
+  color: rgb(36, 91, 185);
+  margin-left: 50px;
+  border-radius: 5px;
+}
+footer{
+  clear: both;
+  border-top:1px solid lightgray;
+  padding:10px 0 0 0;
+  font-size: 14px;
+}
+code{
+  background: lightgray;
+  font-size: .8em;
+}
+footer img{
+  width:16px;
+  height:auto;
+  vertical-align: middle;
+  margin-right: 10px;
+}
