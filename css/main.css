@@ -1,6 +1,6 @@
 body {
   font: 20px/1.5em lato, arial, sans-serif;
-  max-width: 700px;
+  max-width: 800px;
   width: 90%;
   margin: 30px auto;
 }
@@ -40,6 +40,7 @@ section {
 
 .edit-div {
   display: flex;
+  align-items: center;
 }
 
 .edit-div input {
