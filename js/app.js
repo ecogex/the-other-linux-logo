@@ -1,6 +1,8 @@
 let options = document.querySelector('[inkscape\\:label\="Options"]').querySelectorAll(":scope > *");
 let uiContainer = document.querySelector('.edit')
 
+exportToSvg();
+
 options.forEach((item, i) => {
   let currentChildren = item.querySelectorAll('[inkscape\\:label]');
   let currentCategory = document.createElement('div');
